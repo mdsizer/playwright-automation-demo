@@ -3,13 +3,17 @@
   "version": "1.0.0",
   "description": "A repository to demonstrate automation using Playwright with Cucumber framework and TS language.",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "cucumber-js test"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@cucumber/cucumber": "^10.0.1",
     "@playwright/test": "^1.39.0",
-    "@types/node": "^20.8.10"
+    "@types/node": "^20.8.10",
+    "prettier": "^3.0.3",
+    "ts-node": "^10.9.1"
   }
 }
